@@ -24,6 +24,16 @@ namespace BackupFiles
         private static LogLevel currentLogLevel;
 
         static void Main(string[] args)
+
+
+  // bin/debag/settings.json
+  //"sourcePaths": [
+  //  "C:\\Path\\To\\Source\\Folder1",
+  //  "C:\\Path\\To\\Source\\Folder2"
+  //],
+  //"destinationPath": "C:\\Path\\To\\Destination\\Folder",
+  //"logLevel": "Info"
+
         {
             string settingsFilePath = "settings.json";
             Settings settings;
